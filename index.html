@@ -33,6 +33,15 @@
         }, 1000);
       });
     </script>
+    <!-- MailerLite Universal -->
+<script>
+    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+    ml('account', '1747446');
+</script>
+<!-- End MailerLite Universal -->
     <title>Seeking Truth - Links</title>
   </head>
   <body>
@@ -73,14 +82,7 @@
           >
         </li>
         <li>
-          <a
-            href="https://twitter.com/titas_p/"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <img src="assets/images/twitter.svg" alt="home button" width="20" />
-            Twitter</a
-          >
+          <button class="ml-onclick-form" onclick="ml('show', 'cRphzt', true)">Click here to show form</button>
         </li>
       </ul>
     </main>
